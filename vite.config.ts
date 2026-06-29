@@ -5,6 +5,11 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Vercel deploys serve this at the domain root ('/'). The pace-bene nginx review
+  // host serves it at a subpath instead — set VITE_BASE=/floc-apps/ when building
+  // for that target so assets, the manifest, and the service worker scope all
+  // resolve correctly. See nginx/floc.conf in home-apps for the build command used.
+  base: process.env.VITE_BASE || '/',
   plugins: [
     react(),
     tailwindcss(),
