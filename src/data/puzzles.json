@@ -1,0 +1,4843 @@
+[
+  {
+    "id": "cats-naptime-colors-3x3",
+    "type": "logic_puzzle",
+    "title": "Naptime Colors",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "cats"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Biscuit",
+      "Shadow",
+      "Pumpkin"
+    ],
+    "categories": {
+      "color": [
+        "black",
+        "orange",
+        "gray"
+      ],
+      "nap spot": [
+        "laundry basket",
+        "cardboard box",
+        "windowsill"
+      ]
+    },
+    "clues": [
+      "Pumpkin is not black and not gray.",
+      "The orange cat naps in the cardboard box.",
+      "Shadow is not black.",
+      "The black cat does not nap on the windowsill."
+    ],
+    "solution": {
+      "Biscuit": {
+        "color": "black",
+        "nap spot": "laundry basket"
+      },
+      "Shadow": {
+        "color": "gray",
+        "nap spot": "windowsill"
+      },
+      "Pumpkin": {
+        "color": "orange",
+        "nap spot": "cardboard box"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-snack-time-3x3",
+    "type": "logic_puzzle",
+    "title": "Snack Time",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "cats"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Luna",
+      "Oliver",
+      "Cleo"
+    ],
+    "categories": {
+      "breed": [
+        "tabby",
+        "siamese",
+        "calico"
+      ],
+      "treat": [
+        "tuna",
+        "chicken",
+        "salmon"
+      ]
+    },
+    "clues": [
+      "The tabby cat likes chicken.",
+      "Oliver is not siamese and not tabby.",
+      "The calico cat does not like salmon.",
+      "Luna is not tabby."
+    ],
+    "solution": {
+      "Luna": {
+        "breed": "siamese",
+        "treat": "salmon"
+      },
+      "Oliver": {
+        "breed": "calico",
+        "treat": "tuna"
+      },
+      "Cleo": {
+        "breed": "tabby",
+        "treat": "chicken"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-nap-time-4x4-ragdoll",
+    "type": "logic_puzzle",
+    "title": "Nap Time",
+    "grade_min": 4,
+    "grade_max": 6,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "4x8",
+    "entities": [
+      "Pearl",
+      "River",
+      "Hazel",
+      "Wren"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "tabby",
+        "siamese"
+      ],
+      "nap spot": [
+        "sunny windowsill",
+        "top bookshelf",
+        "laundry basket",
+        "under the bed"
+      ]
+    },
+    "clues": [
+      "The siamese cat always sleeps under the bed.",
+      "The calico cat does not nap in the laundry basket or under the bed.",
+      "Wren is not calico and not tabby.",
+      "Hazel is not ragdoll and not siamese.",
+      "The ragdoll cat does not sleep in the laundry basket.",
+      "River is not siamese, not tabby, and not calico.",
+      "River's nap spot is not the sunny windowsill.",
+      "Pearl is not tabby."
+    ],
+    "solution": {
+      "Pearl": {
+        "breed": "calico",
+        "nap spot": "sunny windowsill"
+      },
+      "River": {
+        "breed": "ragdoll",
+        "nap spot": "top bookshelf"
+      },
+      "Hazel": {
+        "breed": "tabby",
+        "nap spot": "laundry basket"
+      },
+      "Wren": {
+        "breed": "siamese",
+        "nap spot": "under the bed"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-dinnertime-4x4-ragdoll",
+    "type": "logic_puzzle",
+    "title": "Dinnertime",
+    "grade_min": 4,
+    "grade_max": 6,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Biscotti",
+      "Maple",
+      "Opal",
+      "Clover"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "tortoiseshell",
+        "maine coon"
+      ],
+      "treat": [
+        "tuna",
+        "salmon",
+        "shrimp",
+        "chicken"
+      ]
+    },
+    "clues": [
+      "The calico cat's favorite treat is not tuna or salmon.",
+      "Maple is not calico and not tortoiseshell.",
+      "Opal is not calico and not ragdoll.",
+      "The ragdoll cat's favorite treat is salmon.",
+      "Biscotti is not maine coon and not tortoiseshell.",
+      "Clover's treat is not shrimp or tuna.",
+      "The tortoiseshell cat does not like salmon or chicken.",
+      "The maine coon cat does not like shrimp.",
+      "Maple's treat is not chicken or tuna."
+    ],
+    "solution": {
+      "Biscotti": {
+        "breed": "calico",
+        "treat": "shrimp"
+      },
+      "Maple": {
+        "breed": "ragdoll",
+        "treat": "salmon"
+      },
+      "Opal": {
+        "breed": "tortoiseshell",
+        "treat": "tuna"
+      },
+      "Clover": {
+        "breed": "maine coon",
+        "treat": "chicken"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-saturday-mischief-5x5",
+    "type": "logic_puzzle",
+    "title": "Saturday Mischief",
+    "grade_min": 5,
+    "grade_max": 8,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "5x10",
+    "entities": [
+      "Cobalt",
+      "Nova",
+      "Bram",
+      "Wisp",
+      "Gorse"
+    ],
+    "categories": {
+      "coat": [
+        "calico",
+        "ragdoll",
+        "solid black",
+        "solid white",
+        "tortoiseshell"
+      ],
+      "mischief": [
+        "knocked over a plant",
+        "stole a sock",
+        "ate the dog's food",
+        "opened a cabinet",
+        "sat on the keyboard"
+      ]
+    },
+    "clues": [
+      "The calico cat knocked over a plant.",
+      "The ragdoll cat stole a sock.",
+      "Cobalt is not solid black, not solid white, and not tortoiseshell.",
+      "Nova is not calico, not solid black, and not tortoiseshell.",
+      "Bram is not calico, not ragdoll, and not solid white.",
+      "Wisp is not calico, not ragdoll, and not solid black.",
+      "The tortoiseshell cat did not sit on the keyboard and did not open a cabinet.",
+      "Gorse did not knock over a plant and did not steal a sock.",
+      "The solid white cat opened a cabinet.",
+      "The tortoiseshell cat is not Bram or Wisp."
+    ],
+    "solution": {
+      "Cobalt": {
+        "coat": "calico",
+        "mischief": "knocked over a plant"
+      },
+      "Nova": {
+        "coat": "ragdoll",
+        "mischief": "stole a sock"
+      },
+      "Bram": {
+        "coat": "solid black",
+        "mischief": "sat on the keyboard"
+      },
+      "Wisp": {
+        "coat": "solid white",
+        "mischief": "opened a cabinet"
+      },
+      "Gorse": {
+        "coat": "tortoiseshell",
+        "mischief": "ate the dog's food"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-cat-show-6x6-ragdoll",
+    "type": "logic_puzzle",
+    "title": "The Cat Show",
+    "grade_min": 6,
+    "grade_max": 9,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "6x12",
+    "entities": [
+      "Duchess",
+      "Bramble",
+      "Frost",
+      "Pepper",
+      "Sage",
+      "Nutmeg"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "siamese",
+        "tabby",
+        "maine coon",
+        "scottish fold"
+      ],
+      "ribbon": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th",
+        "5th",
+        "6th"
+      ]
+    },
+    "clues": [
+      "The calico cat placed higher (lower number) than every other cat.",
+      "The ragdoll cat placed exactly one spot behind the calico.",
+      "Frost placed behind the ragdoll but ahead of Pepper.",
+      "Duchess is not ragdoll, not siamese, and not tabby.",
+      "Bramble is not calico, not siamese, and not maine coon.",
+      "Frost is not calico, not ragdoll, and not tabby.",
+      "Pepper is not calico, not ragdoll, and not scottish fold.",
+      "Sage placed ahead of Nutmeg.",
+      "Nutmeg is not calico, not ragdoll, and not siamese.",
+      "Duchess placed ahead of Bramble.",
+      "Sage is not calico, not ragdoll, and not siamese.",
+      "The scottish fold placed last.",
+      "Frost placed immediately behind Bramble.",
+      "Sage placed behind Pepper.",
+      "Frost is not the maine coon.",
+      "Pepper is not the maine coon."
+    ],
+    "solution": {
+      "Duchess": {
+        "breed": "calico",
+        "ribbon": "1st"
+      },
+      "Bramble": {
+        "breed": "ragdoll",
+        "ribbon": "2nd"
+      },
+      "Frost": {
+        "breed": "siamese",
+        "ribbon": "3rd"
+      },
+      "Pepper": {
+        "breed": "tabby",
+        "ribbon": "4th"
+      },
+      "Sage": {
+        "breed": "maine coon",
+        "ribbon": "5th"
+      },
+      "Nutmeg": {
+        "breed": "scottish fold",
+        "ribbon": "6th"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-toy-time-3x6",
+    "type": "logic_puzzle",
+    "title": "Toy Time",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Cleo",
+      "Mochi",
+      "Dot"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "tabby"
+      ],
+      "toy": [
+        "feather wand",
+        "yarn ball",
+        "crinkle tunnel"
+      ]
+    },
+    "clues": [
+      "Mochi is a ragdoll.",
+      "The calico cat plays with the yarn ball.",
+      "Dot does not play with the yarn ball.",
+      "Cleo is not a tabby.",
+      "The ragdoll plays with the feather wand."
+    ],
+    "solution": {
+      "Cleo": {
+        "breed": "calico",
+        "toy": "yarn ball"
+      },
+      "Mochi": {
+        "breed": "ragdoll",
+        "toy": "feather wand"
+      },
+      "Dot": {
+        "breed": "tabby",
+        "toy": "crinkle tunnel"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-treat-time-3x6",
+    "type": "logic_puzzle",
+    "title": "Treat Time",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Pepper",
+      "Luna",
+      "Boba"
+    ],
+    "categories": {
+      "coat": [
+        "calico",
+        "ragdoll",
+        "black"
+      ],
+      "treat": [
+        "salmon",
+        "tuna",
+        "chicken"
+      ]
+    },
+    "clues": [
+      "Luna is a ragdoll.",
+      "The calico cat eats tuna.",
+      "Boba does not eat tuna.",
+      "The ragdoll cat does not eat salmon."
+    ],
+    "solution": {
+      "Pepper": {
+        "coat": "calico",
+        "treat": "tuna"
+      },
+      "Luna": {
+        "coat": "ragdoll",
+        "treat": "chicken"
+      },
+      "Boba": {
+        "coat": "black",
+        "treat": "salmon"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-nap-spots-3x6",
+    "type": "logic_puzzle",
+    "title": "Nap Spots",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Ginger",
+      "Slate",
+      "Pearl"
+    ],
+    "categories": {
+      "pattern": [
+        "calico",
+        "ragdoll",
+        "orange"
+      ],
+      "nap spot": [
+        "sunny windowsill",
+        "laundry pile",
+        "top of fridge"
+      ]
+    },
+    "clues": [
+      "Pearl is a calico.",
+      "The ragdoll naps on the laundry pile.",
+      "Ginger naps on the sunny windowsill.",
+      "The calico does not nap on the laundry pile."
+    ],
+    "solution": {
+      "Ginger": {
+        "pattern": "orange",
+        "nap spot": "sunny windowsill"
+      },
+      "Slate": {
+        "pattern": "ragdoll",
+        "nap spot": "laundry pile"
+      },
+      "Pearl": {
+        "pattern": "calico",
+        "nap spot": "top of fridge"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-ribbon-show-3x6",
+    "type": "logic_puzzle",
+    "title": "Ribbon Show",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Maple",
+      "Fern",
+      "Cocoa"
+    ],
+    "categories": {
+      "coat": [
+        "calico",
+        "ragdoll",
+        "gray"
+      ],
+      "ribbon": [
+        "first place",
+        "second place",
+        "third place"
+      ]
+    },
+    "clues": [
+      "Maple is a calico.",
+      "The ragdoll did not win first place.",
+      "Cocoa won second place.",
+      "The calico won first place.",
+      "Fern is a ragdoll."
+    ],
+    "solution": {
+      "Maple": {
+        "coat": "calico",
+        "ribbon": "first place"
+      },
+      "Fern": {
+        "coat": "ragdoll",
+        "ribbon": "third place"
+      },
+      "Cocoa": {
+        "coat": "gray",
+        "ribbon": "second place"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-personality-4x8",
+    "type": "logic_puzzle",
+    "title": "Purrsonality Test",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Thistle",
+      "Sable",
+      "Ivory",
+      "Clover"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "siamese",
+        "tabby"
+      ],
+      "personality": [
+        "playful",
+        "shy",
+        "bold",
+        "lazy"
+      ]
+    },
+    "clues": [
+      "Thistle is a calico.",
+      "The ragdoll is lazy.",
+      "The siamese is not shy.",
+      "Clover is not a ragdoll and not a siamese.",
+      "The calico is playful.",
+      "Ivory is not a tabby.",
+      "Sable is not a siamese."
+    ],
+    "solution": {
+      "Thistle": {
+        "breed": "calico",
+        "personality": "playful"
+      },
+      "Sable": {
+        "breed": "ragdoll",
+        "personality": "lazy"
+      },
+      "Ivory": {
+        "breed": "siamese",
+        "personality": "bold"
+      },
+      "Clover": {
+        "breed": "tabby",
+        "personality": "shy"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-ages-4x8",
+    "type": "logic_puzzle",
+    "title": "Cat Ages",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Birch",
+      "Wren",
+      "Acorn",
+      "Petal"
+    ],
+    "categories": {
+      "coat": [
+        "calico",
+        "ragdoll",
+        "tortoiseshell",
+        "white"
+      ],
+      "age": [
+        "1 year",
+        "3 years",
+        "5 years",
+        "7 years"
+      ]
+    },
+    "clues": [
+      "The ragdoll is the youngest cat.",
+      "Acorn is older than 5 years.",
+      "The calico is not the oldest.",
+      "Birch is a calico.",
+      "Petal is not a ragdoll.",
+      "The white cat is 5 years old.",
+      "Wren is younger than Birch."
+    ],
+    "solution": {
+      "Birch": {
+        "coat": "calico",
+        "age": "3 years"
+      },
+      "Wren": {
+        "coat": "ragdoll",
+        "age": "1 year"
+      },
+      "Acorn": {
+        "coat": "tortoiseshell",
+        "age": "7 years"
+      },
+      "Petal": {
+        "coat": "white",
+        "age": "5 years"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-mischief-4x8",
+    "type": "logic_puzzle",
+    "title": "Monday Mischief",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Noodle",
+      "Cricket",
+      "Frost",
+      "Amber"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "black",
+        "gray"
+      ],
+      "mischief": [
+        "knocked over a vase",
+        "stole a sock",
+        "sat on the keyboard",
+        "unrolled toilet paper"
+      ]
+    },
+    "clues": [
+      "Cricket is a ragdoll.",
+      "Noodle is a calico.",
+      "The calico stole a sock.",
+      "The ragdoll sat on the keyboard.",
+      "Frost is a gray cat.",
+      "The gray cat knocked over a vase.",
+      "Amber unrolled the toilet paper."
+    ],
+    "solution": {
+      "Noodle": {
+        "breed": "calico",
+        "mischief": "stole a sock"
+      },
+      "Cricket": {
+        "breed": "ragdoll",
+        "mischief": "sat on the keyboard"
+      },
+      "Frost": {
+        "breed": "gray",
+        "mischief": "knocked over a vase"
+      },
+      "Amber": {
+        "breed": "black",
+        "mischief": "unrolled toilet paper"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-snack-coats-4x8",
+    "type": "logic_puzzle",
+    "title": "Snack Coats",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Marble",
+      "Brie",
+      "Olive",
+      "Cider"
+    ],
+    "categories": {
+      "coat": [
+        "calico",
+        "ragdoll",
+        "cream",
+        "striped"
+      ],
+      "snack": [
+        "sardines",
+        "cheese",
+        "ham",
+        "turkey"
+      ]
+    },
+    "clues": [
+      "Olive is a ragdoll.",
+      "Marble is a calico.",
+      "The calico cat likes ham.",
+      "The ragdoll prefers sardines.",
+      "The cream cat eats cheese.",
+      "Brie has cream-colored fur.",
+      "Cider does not eat sardines."
+    ],
+    "solution": {
+      "Marble": {
+        "coat": "calico",
+        "snack": "ham"
+      },
+      "Brie": {
+        "coat": "cream",
+        "snack": "cheese"
+      },
+      "Olive": {
+        "coat": "ragdoll",
+        "snack": "sardines"
+      },
+      "Cider": {
+        "coat": "striped",
+        "snack": "turkey"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-nap-breed-5x10",
+    "type": "logic_puzzle",
+    "title": "Where Do They Nap?",
+    "grade_min": 6,
+    "grade_max": 7,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "5x10",
+    "entities": [
+      "Ash",
+      "Cedar",
+      "Elm",
+      "Hazel",
+      "Rowan"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "siamese",
+        "maine coon",
+        "persian"
+      ],
+      "nap spot": [
+        "bookshelf",
+        "piano top",
+        "garden chair",
+        "laundry basket",
+        "sunny step"
+      ]
+    },
+    "clues": [
+      "The ragdoll naps on the bookshelf.",
+      "Cedar is a calico.",
+      "The calico does not nap in the laundry basket.",
+      "Elm is not a ragdoll and not a maine coon.",
+      "The siamese naps on the garden chair.",
+      "Hazel is not a persian.",
+      "The maine coon does not nap on the sunny step.",
+      "Rowan naps on the sunny step.",
+      "Ash does not nap on the piano top.",
+      "Ash is a ragdoll."
+    ],
+    "solution": {
+      "Ash": {
+        "breed": "ragdoll",
+        "nap spot": "bookshelf"
+      },
+      "Cedar": {
+        "breed": "calico",
+        "nap spot": "piano top"
+      },
+      "Elm": {
+        "breed": "siamese",
+        "nap spot": "garden chair"
+      },
+      "Hazel": {
+        "breed": "maine coon",
+        "nap spot": "laundry basket"
+      },
+      "Rowan": {
+        "breed": "persian",
+        "nap spot": "sunny step"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-breeds-toys-5x10",
+    "type": "logic_puzzle",
+    "title": "Toys and Breeds",
+    "grade_min": 6,
+    "grade_max": 7,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "5x10",
+    "entities": [
+      "Clancy",
+      "Dusk",
+      "Ember",
+      "Flint",
+      "Garnet"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "tabby",
+        "tortoiseshell",
+        "tuxedo"
+      ],
+      "toy": [
+        "laser pointer",
+        "feather wand",
+        "mouse on a string",
+        "crinkle ball",
+        "cardboard box"
+      ]
+    },
+    "clues": [
+      "Clancy is a calico.",
+      "Dusk is a ragdoll.",
+      "The ragdoll prefers the crinkle ball.",
+      "Ember is a tabby.",
+      "The tabby chases the laser pointer.",
+      "The calico plays with the feather wand.",
+      "Garnet is not a calico and not a ragdoll.",
+      "Flint is not a tuxedo.",
+      "The tuxedo cat likes the cardboard box."
+    ],
+    "solution": {
+      "Clancy": {
+        "breed": "calico",
+        "toy": "feather wand"
+      },
+      "Dusk": {
+        "breed": "ragdoll",
+        "toy": "crinkle ball"
+      },
+      "Ember": {
+        "breed": "tabby",
+        "toy": "laser pointer"
+      },
+      "Flint": {
+        "breed": "tortoiseshell",
+        "toy": "mouse on a string"
+      },
+      "Garnet": {
+        "breed": "tuxedo",
+        "toy": "cardboard box"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-hobbies-5x15",
+    "type": "logic_puzzle",
+    "title": "Cat Hobbies",
+    "grade_min": 6,
+    "grade_max": 8,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "5x15",
+    "entities": [
+      "Basil",
+      "Calla",
+      "Dinah",
+      "Echo",
+      "Fable"
+    ],
+    "categories": {
+      "coat": [
+        "calico",
+        "ragdoll",
+        "black",
+        "cream",
+        "spotted"
+      ],
+      "nap spot": [
+        "sock drawer",
+        "top of wardrobe",
+        "kitchen counter",
+        "window ledge",
+        "baby's crib"
+      ],
+      "hobby": [
+        "birdwatching",
+        "box collecting",
+        "plant chewing",
+        "bug hunting",
+        "sunbeam chasing"
+      ]
+    },
+    "clues": [
+      "Basil is a calico.",
+      "The ragdoll spends its time chasing sunbeams.",
+      "The cat who watches birds naps on the window ledge.",
+      "Calla is a ragdoll.",
+      "The black cat hunts bugs.",
+      "Echo sleeps in the sock drawer.",
+      "The cream cat collects boxes.",
+      "Dinah is a black cat.",
+      "The spotted cat naps in the baby's crib.",
+      "Fable chews on plants.",
+      "The cat who hunts bugs does not nap on the window ledge.",
+      "Calla naps on top of the wardrobe."
+    ],
+    "solution": {
+      "Basil": {
+        "coat": "calico",
+        "nap spot": "window ledge",
+        "hobby": "birdwatching"
+      },
+      "Calla": {
+        "coat": "ragdoll",
+        "nap spot": "top of wardrobe",
+        "hobby": "sunbeam chasing"
+      },
+      "Dinah": {
+        "coat": "black",
+        "nap spot": "kitchen counter",
+        "hobby": "bug hunting"
+      },
+      "Echo": {
+        "coat": "cream",
+        "nap spot": "sock drawer",
+        "hobby": "box collecting"
+      },
+      "Fable": {
+        "coat": "spotted",
+        "nap spot": "baby's crib",
+        "hobby": "plant chewing"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-nap-times-4x8",
+    "type": "logic_puzzle",
+    "title": "Nap Times",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Storm",
+      "Wisp",
+      "Cinder",
+      "Vale"
+    ],
+    "categories": {
+      "coat": [
+        "calico",
+        "ragdoll",
+        "silver",
+        "brown"
+      ],
+      "nap time": [
+        "morning",
+        "afternoon",
+        "evening",
+        "midnight"
+      ]
+    },
+    "clues": [
+      "Wisp is a ragdoll.",
+      "The calico naps in the evening.",
+      "Storm does not nap at midnight.",
+      "The silver cat naps in the morning.",
+      "Vale naps at midnight.",
+      "The ragdoll does not nap in the morning.",
+      "Cinder is a calico."
+    ],
+    "solution": {
+      "Storm": {
+        "coat": "silver",
+        "nap time": "morning"
+      },
+      "Wisp": {
+        "coat": "ragdoll",
+        "nap time": "afternoon"
+      },
+      "Cinder": {
+        "coat": "calico",
+        "nap time": "evening"
+      },
+      "Vale": {
+        "coat": "brown",
+        "nap time": "midnight"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-rooms-6x12",
+    "type": "logic_puzzle",
+    "title": "Favorite Rooms",
+    "grade_min": 8,
+    "grade_max": 9,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "6x12",
+    "entities": [
+      "Jasper",
+      "Kira",
+      "Ludo",
+      "Maple",
+      "Nova",
+      "Opal"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "siamese",
+        "persian",
+        "abyssinian",
+        "scottish fold"
+      ],
+      "favorite room": [
+        "kitchen",
+        "bedroom",
+        "bathroom",
+        "living room",
+        "attic",
+        "basement"
+      ]
+    },
+    "clues": [
+      "The ragdoll cat's favorite room is the bedroom.",
+      "Jasper is a calico.",
+      "The siamese loves the kitchen.",
+      "Kira is a ragdoll.",
+      "Ludo is a siamese.",
+      "Maple is not a calico and not a ragdoll.",
+      "The calico's favorite room is not the kitchen or the bathroom.",
+      "Opal is a scottish fold.",
+      "The persian cat likes the attic.",
+      "Nova is not a persian.",
+      "The abyssinian prefers the bathroom.",
+      "The scottish fold lives in the basement."
+    ],
+    "solution": {
+      "Jasper": {
+        "breed": "calico",
+        "favorite room": "living room"
+      },
+      "Kira": {
+        "breed": "ragdoll",
+        "favorite room": "bedroom"
+      },
+      "Ludo": {
+        "breed": "siamese",
+        "favorite room": "kitchen"
+      },
+      "Maple": {
+        "breed": "persian",
+        "favorite room": "attic"
+      },
+      "Nova": {
+        "breed": "abyssinian",
+        "favorite room": "bathroom"
+      },
+      "Opal": {
+        "breed": "scottish fold",
+        "favorite room": "basement"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-beds-3x6",
+    "type": "logic_puzzle",
+    "title": "Cozy Beds",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "cats",
+      "calico"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Pip",
+      "Zoe",
+      "Rue"
+    ],
+    "categories": {
+      "color": [
+        "calico",
+        "black",
+        "white"
+      ],
+      "bed": [
+        "cat tree",
+        "fleece blanket",
+        "cardboard box"
+      ]
+    },
+    "clues": [
+      "Zoe is a calico.",
+      "The black cat sleeps in the cat tree.",
+      "Rue does not sleep in the cat tree.",
+      "The calico does not sleep in the cardboard box."
+    ],
+    "solution": {
+      "Pip": {
+        "color": "black",
+        "bed": "cat tree"
+      },
+      "Zoe": {
+        "color": "calico",
+        "bed": "fleece blanket"
+      },
+      "Rue": {
+        "color": "white",
+        "bed": "cardboard box"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-grooming-4x8",
+    "type": "logic_puzzle",
+    "title": "Grooming Order",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Velvet",
+      "Twig",
+      "Sparks",
+      "Pudding"
+    ],
+    "categories": {
+      "coat": [
+        "calico",
+        "ragdoll",
+        "tabby",
+        "black-and-white"
+      ],
+      "grooming habit": [
+        "licks paws first",
+        "starts with ears",
+        "groomes tail first",
+        "cleans face first"
+      ]
+    },
+    "clues": [
+      "Velvet is a ragdoll.",
+      "The calico always cleans its face first.",
+      "The ragdoll licks its paws first.",
+      "Sparks is not a ragdoll and not a calico.",
+      "The tabby starts with its ears.",
+      "Pudding is not a tabby.",
+      "Twig is a calico."
+    ],
+    "solution": {
+      "Velvet": {
+        "coat": "ragdoll",
+        "grooming habit": "licks paws first"
+      },
+      "Twig": {
+        "coat": "calico",
+        "grooming habit": "cleans face first"
+      },
+      "Sparks": {
+        "coat": "tabby",
+        "grooming habit": "starts with ears"
+      },
+      "Pudding": {
+        "coat": "black-and-white",
+        "grooming habit": "groomes tail first"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-talents-5x10",
+    "type": "logic_puzzle",
+    "title": "Cat Talents",
+    "grade_min": 6,
+    "grade_max": 7,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "5x10",
+    "entities": [
+      "Halo",
+      "Indigo",
+      "Juniper",
+      "Kairos",
+      "Lyric"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "burmese",
+        "norwegian forest",
+        "devon rex"
+      ],
+      "talent": [
+        "opening doors",
+        "high jumping",
+        "fetch",
+        "puzzle solving",
+        "hide and seek"
+      ]
+    },
+    "clues": [
+      "Halo is a calico.",
+      "The ragdoll is known for playing fetch.",
+      "Indigo is a ragdoll.",
+      "The calico is the best puzzle solver.",
+      "Juniper is not a ragdoll.",
+      "The norwegian forest cat is the highest jumper.",
+      "Lyric is a devon rex.",
+      "The devon rex excels at hide and seek.",
+      "Kairos is not a burmese."
+    ],
+    "solution": {
+      "Halo": {
+        "breed": "calico",
+        "talent": "puzzle solving"
+      },
+      "Indigo": {
+        "breed": "ragdoll",
+        "talent": "fetch"
+      },
+      "Juniper": {
+        "breed": "burmese",
+        "talent": "opening doors"
+      },
+      "Kairos": {
+        "breed": "norwegian forest",
+        "talent": "high jumping"
+      },
+      "Lyric": {
+        "breed": "devon rex",
+        "talent": "hide and seek"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-window-4x8",
+    "type": "logic_puzzle",
+    "title": "Window Watchers",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Blossom",
+      "Heath",
+      "Nimbus",
+      "Tango"
+    ],
+    "categories": {
+      "coat": [
+        "calico",
+        "ragdoll",
+        "tabby",
+        "ginger"
+      ],
+      "window time": [
+        "sunrise",
+        "noon",
+        "sunset",
+        "dusk"
+      ]
+    },
+    "clues": [
+      "Nimbus is a ragdoll.",
+      "The calico watches the window at noon.",
+      "The ginger cat watches at sunrise.",
+      "The ragdoll watches at dusk.",
+      "Tango is a tabby.",
+      "Blossom is not a ginger cat.",
+      "The tabby watches at sunset."
+    ],
+    "solution": {
+      "Blossom": {
+        "coat": "calico",
+        "window time": "noon"
+      },
+      "Heath": {
+        "coat": "ginger",
+        "window time": "sunrise"
+      },
+      "Nimbus": {
+        "coat": "ragdoll",
+        "window time": "dusk"
+      },
+      "Tango": {
+        "coat": "tabby",
+        "window time": "sunset"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-sounds-3x6",
+    "type": "logic_puzzle",
+    "title": "Cat Sounds",
+    "grade_min": 2,
+    "grade_max": 4,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Miso",
+      "Mango",
+      "Mochi"
+    ],
+    "categories": {
+      "pattern": [
+        "calico",
+        "ragdoll",
+        "striped"
+      ],
+      "sound": [
+        "loud meow",
+        "tiny squeak",
+        "silent"
+      ]
+    },
+    "clues": [
+      "Miso is a ragdoll.",
+      "The calico has a loud meow.",
+      "The ragdoll makes only a tiny squeak.",
+      "Mochi is striped."
+    ],
+    "solution": {
+      "Miso": {
+        "pattern": "ragdoll",
+        "sound": "tiny squeak"
+      },
+      "Mango": {
+        "pattern": "calico",
+        "sound": "loud meow"
+      },
+      "Mochi": {
+        "pattern": "striped",
+        "sound": "silent"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-6cats-naps-6x12",
+    "type": "logic_puzzle",
+    "title": "Six Cat Naptime",
+    "grade_min": 8,
+    "grade_max": 9,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "6x12",
+    "entities": [
+      "Arrow",
+      "Bracken",
+      "Cosmo",
+      "Dew",
+      "Elara",
+      "Finch"
+    ],
+    "categories": {
+      "coat": [
+        "calico",
+        "ragdoll",
+        "black",
+        "cream",
+        "orange",
+        "tortoiseshell"
+      ],
+      "nap spot": [
+        "attic beam",
+        "kitchen shelf",
+        "laundry basket",
+        "piano bench",
+        "sock drawer",
+        "windowsill"
+      ]
+    },
+    "clues": [
+      "Arrow is a calico.",
+      "The ragdoll sleeps in the laundry basket.",
+      "The calico naps on the windowsill.",
+      "Bracken is a ragdoll.",
+      "The black cat claims the kitchen shelf.",
+      "Cosmo is a black cat.",
+      "The cream cat sleeps in the sock drawer.",
+      "Dew is not an orange cat.",
+      "The orange cat naps on the piano bench.",
+      "Finch is a tortoiseshell.",
+      "The tortoiseshell sleeps on the attic beam.",
+      "Elara is not a calico."
+    ],
+    "solution": {
+      "Arrow": {
+        "coat": "calico",
+        "nap spot": "windowsill"
+      },
+      "Bracken": {
+        "coat": "ragdoll",
+        "nap spot": "laundry basket"
+      },
+      "Cosmo": {
+        "coat": "black",
+        "nap spot": "kitchen shelf"
+      },
+      "Dew": {
+        "coat": "cream",
+        "nap spot": "sock drawer"
+      },
+      "Elara": {
+        "coat": "orange",
+        "nap spot": "piano bench"
+      },
+      "Finch": {
+        "coat": "tortoiseshell",
+        "nap spot": "attic beam"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "cats-3cat-4x12",
+    "type": "logic_puzzle",
+    "title": "When and Where",
+    "grade_min": 5,
+    "grade_max": 7,
+    "themes": [
+      "cats",
+      "calico",
+      "ragdoll"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "4x12",
+    "entities": [
+      "Rustle",
+      "Sheen",
+      "Tinker",
+      "Umbra"
+    ],
+    "categories": {
+      "breed": [
+        "calico",
+        "ragdoll",
+        "burmese",
+        "tabby"
+      ],
+      "nap spot": [
+        "windowsill",
+        "hamper",
+        "piano top",
+        "dog bed"
+      ],
+      "time of day": [
+        "morning",
+        "afternoon",
+        "evening",
+        "night"
+      ]
+    },
+    "clues": [
+      "The ragdoll naps in the morning.",
+      "Rustle is a calico.",
+      "The calico's favorite nap spot is the windowsill.",
+      "Sheen is a ragdoll.",
+      "The ragdoll naps on the piano top.",
+      "Umbra naps at night.",
+      "The tabby naps in the hamper.",
+      "The burmese naps in the evening.",
+      "Tinker is not a calico.",
+      "The cat that naps in the dog bed is not a tabby."
+    ],
+    "solution": {
+      "Rustle": {
+        "breed": "calico",
+        "nap spot": "windowsill",
+        "time of day": "afternoon"
+      },
+      "Sheen": {
+        "breed": "ragdoll",
+        "nap spot": "piano top",
+        "time of day": "morning"
+      },
+      "Tinker": {
+        "breed": "burmese",
+        "nap spot": "dog bed",
+        "time of day": "evening"
+      },
+      "Umbra": {
+        "breed": "tabby",
+        "nap spot": "hamper",
+        "time of day": "night"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-planet-colors-3x6",
+    "type": "logic_puzzle",
+    "title": "Planet Colors",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Luna",
+      "Mars",
+      "Comet"
+    ],
+    "categories": {
+      "planet": [
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "yellow"
+      ]
+    },
+    "clues": [
+      "Luna visited Venus.",
+      "The astronaut who visited Jupiter wore red.",
+      "Comet did not wear red.",
+      "The astronaut who visited Saturn wore yellow."
+    ],
+    "solution": {
+      "Luna": {
+        "planet": "Venus",
+        "color": "blue"
+      },
+      "Mars": {
+        "planet": "Jupiter",
+        "color": "red"
+      },
+      "Comet": {
+        "planet": "Saturn",
+        "color": "yellow"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-missions-3x6",
+    "type": "logic_puzzle",
+    "title": "Space Missions",
+    "grade_min": 2,
+    "grade_max": 4,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Orion",
+      "Lyra",
+      "Vega"
+    ],
+    "categories": {
+      "spacecraft": [
+        "Rocket A",
+        "Shuttle B",
+        "Capsule C"
+      ],
+      "mission": [
+        "moon landing",
+        "space walk",
+        "satellite repair"
+      ]
+    },
+    "clues": [
+      "Orion flew Rocket A.",
+      "The astronaut on Shuttle B repaired a satellite.",
+      "Vega did a space walk.",
+      "Lyra did not land on the moon."
+    ],
+    "solution": {
+      "Orion": {
+        "spacecraft": "Rocket A",
+        "mission": "moon landing"
+      },
+      "Lyra": {
+        "spacecraft": "Shuttle B",
+        "mission": "satellite repair"
+      },
+      "Vega": {
+        "spacecraft": "Capsule C",
+        "mission": "space walk"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-crew-suits-3x6",
+    "type": "logic_puzzle",
+    "title": "Crew Suits",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Stella",
+      "Nova",
+      "Rex"
+    ],
+    "categories": {
+      "suit color": [
+        "orange",
+        "white",
+        "silver"
+      ],
+      "job": [
+        "pilot",
+        "scientist",
+        "engineer"
+      ]
+    },
+    "clues": [
+      "Nova wears an orange suit.",
+      "The pilot does not wear a white suit.",
+      "The scientist wears white.",
+      "Rex is the engineer."
+    ],
+    "solution": {
+      "Stella": {
+        "suit color": "white",
+        "job": "scientist"
+      },
+      "Nova": {
+        "suit color": "orange",
+        "job": "pilot"
+      },
+      "Rex": {
+        "suit color": "silver",
+        "job": "engineer"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-planets-equipment-4x8",
+    "type": "logic_puzzle",
+    "title": "Planet Equipment",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Blaze",
+      "Echo",
+      "Frost",
+      "Zara"
+    ],
+    "categories": {
+      "planet visited": [
+        "Mars",
+        "Europa",
+        "Titan",
+        "Pluto"
+      ],
+      "equipment": [
+        "telescope",
+        "rover",
+        "drill",
+        "sample kit"
+      ]
+    },
+    "clues": [
+      "Blaze visited Mars.",
+      "The astronaut on Mars used the rover.",
+      "Echo is not the one with the telescope.",
+      "The Europa mission used the drill.",
+      "Zara visited Pluto.",
+      "The Pluto mission used the telescope.",
+      "Frost did not visit Europa."
+    ],
+    "solution": {
+      "Blaze": {
+        "planet visited": "Mars",
+        "equipment": "rover"
+      },
+      "Echo": {
+        "planet visited": "Europa",
+        "equipment": "drill"
+      },
+      "Frost": {
+        "planet visited": "Titan",
+        "equipment": "sample kit"
+      },
+      "Zara": {
+        "planet visited": "Pluto",
+        "equipment": "telescope"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-crew-food-4x8",
+    "type": "logic_puzzle",
+    "title": "Space Food",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Celeste",
+      "Dash",
+      "Iggy",
+      "Rho"
+    ],
+    "categories": {
+      "role": [
+        "commander",
+        "pilot",
+        "medic",
+        "engineer"
+      ],
+      "favorite food": [
+        "freeze-dried pizza",
+        "space ice cream",
+        "protein bars",
+        "instant noodles"
+      ]
+    },
+    "clues": [
+      "Celeste is the commander.",
+      "The pilot's favorite food is freeze-dried pizza.",
+      "Iggy is not the pilot.",
+      "The medic eats protein bars.",
+      "The commander loves space ice cream.",
+      "Dash is the pilot.",
+      "Rho is the engineer."
+    ],
+    "solution": {
+      "Celeste": {
+        "role": "commander",
+        "favorite food": "space ice cream"
+      },
+      "Dash": {
+        "role": "pilot",
+        "favorite food": "freeze-dried pizza"
+      },
+      "Iggy": {
+        "role": "medic",
+        "favorite food": "protein bars"
+      },
+      "Rho": {
+        "role": "engineer",
+        "favorite food": "instant noodles"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-mission-duration-4x8",
+    "type": "logic_puzzle",
+    "title": "Mission Duration",
+    "grade_min": 4,
+    "grade_max": 6,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Atlas",
+      "Beacon",
+      "Cosmo",
+      "Delta"
+    ],
+    "categories": {
+      "mission duration": [
+        "3 days",
+        "7 days",
+        "14 days",
+        "30 days"
+      ],
+      "destination": [
+        "Moon",
+        "Mars",
+        "Space Station",
+        "Asteroid Belt"
+      ]
+    },
+    "clues": [
+      "The Moon mission lasted only 3 days.",
+      "Cosmo went to Mars.",
+      "The Mars mission was the longest.",
+      "Atlas did not go to the Asteroid Belt.",
+      "Beacon's mission lasted 14 days.",
+      "The Asteroid Belt mission lasted 7 days.",
+      "Delta did not go to Mars."
+    ],
+    "solution": {
+      "Atlas": {
+        "mission duration": "3 days",
+        "destination": "Moon"
+      },
+      "Beacon": {
+        "mission duration": "14 days",
+        "destination": "Space Station"
+      },
+      "Cosmo": {
+        "mission duration": "30 days",
+        "destination": "Mars"
+      },
+      "Delta": {
+        "mission duration": "7 days",
+        "destination": "Asteroid Belt"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-training-country-4x8",
+    "type": "logic_puzzle",
+    "title": "Training and Country",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Quasar",
+      "Pulsar",
+      "Nebula",
+      "Photon"
+    ],
+    "categories": {
+      "training specialty": [
+        "spacewalk",
+        "robotics",
+        "geology",
+        "navigation"
+      ],
+      "home country": [
+        "USA",
+        "Japan",
+        "Canada",
+        "Germany"
+      ]
+    },
+    "clues": [
+      "Quasar specializes in spacewalks.",
+      "The robotics expert is from Japan.",
+      "Nebula is from Canada.",
+      "The geology specialist is from Canada.",
+      "Photon is not from Japan.",
+      "The navigation expert is from Germany.",
+      "Pulsar is not the geology specialist."
+    ],
+    "solution": {
+      "Quasar": {
+        "training specialty": "spacewalk",
+        "home country": "USA"
+      },
+      "Pulsar": {
+        "training specialty": "robotics",
+        "home country": "Japan"
+      },
+      "Nebula": {
+        "training specialty": "geology",
+        "home country": "Canada"
+      },
+      "Photon": {
+        "training specialty": "navigation",
+        "home country": "Germany"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-launch-years-5x10",
+    "type": "logic_puzzle",
+    "title": "Launch Years",
+    "grade_min": 5,
+    "grade_max": 7,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "standard",
+    "grid_size": "5x10",
+    "entities": [
+      "Andromeda",
+      "Borealis",
+      "Cassini",
+      "Draco",
+      "Eris"
+    ],
+    "categories": {
+      "role": [
+        "commander",
+        "pilot",
+        "geologist",
+        "medic",
+        "engineer"
+      ],
+      "launch year": [
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029"
+      ]
+    },
+    "clues": [
+      "Borealis is the pilot.",
+      "The pilot launched first, in 2025.",
+      "Andromeda is the commander.",
+      "The commander launched in 2027.",
+      "Cassini launched last, in 2029.",
+      "Draco launched in 2026.",
+      "The engineer launched in 2028.",
+      "Eris is not the medic.",
+      "Draco is not the geologist."
+    ],
+    "solution": {
+      "Andromeda": {
+        "role": "commander",
+        "launch year": "2027"
+      },
+      "Borealis": {
+        "role": "pilot",
+        "launch year": "2025"
+      },
+      "Cassini": {
+        "role": "geologist",
+        "launch year": "2029"
+      },
+      "Draco": {
+        "role": "medic",
+        "launch year": "2026"
+      },
+      "Eris": {
+        "role": "engineer",
+        "launch year": "2028"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-missions-vehicles-5x10",
+    "type": "logic_puzzle",
+    "title": "Missions and Vehicles",
+    "grade_min": 6,
+    "grade_max": 7,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "standard",
+    "grid_size": "5x10",
+    "entities": [
+      "Flynn",
+      "Gaia",
+      "Helios",
+      "Io",
+      "Juno"
+    ],
+    "categories": {
+      "mission type": [
+        "mapping",
+        "sample collection",
+        "telescope operation",
+        "habitat assembly",
+        "communications relay"
+      ],
+      "space vehicle": [
+        "shuttle",
+        "capsule",
+        "lander",
+        "orbiter",
+        "cargo ship"
+      ]
+    },
+    "clues": [
+      "Flynn's mission was mapping.",
+      "The mapping mission used an orbiter.",
+      "Gaia collected samples.",
+      "The sample collection mission used a lander.",
+      "The telescope operation mission used a shuttle.",
+      "Io assembled the habitat.",
+      "The habitat assembly mission used a cargo ship.",
+      "Juno is not the telescope operator.",
+      "Helios did not use the capsule."
+    ],
+    "solution": {
+      "Flynn": {
+        "mission type": "mapping",
+        "space vehicle": "orbiter"
+      },
+      "Gaia": {
+        "mission type": "sample collection",
+        "space vehicle": "lander"
+      },
+      "Helios": {
+        "mission type": "telescope operation",
+        "space vehicle": "shuttle"
+      },
+      "Io": {
+        "mission type": "habitat assembly",
+        "space vehicle": "cargo ship"
+      },
+      "Juno": {
+        "mission type": "communications relay",
+        "space vehicle": "capsule"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-specialists-5x15",
+    "type": "logic_puzzle",
+    "title": "Space Specialists",
+    "grade_min": 6,
+    "grade_max": 8,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "5x15",
+    "entities": [
+      "Kepler",
+      "Laika",
+      "Mir",
+      "Newton",
+      "Orbit"
+    ],
+    "categories": {
+      "specialty": [
+        "astrophysics",
+        "geology",
+        "botany",
+        "robotics",
+        "medicine"
+      ],
+      "planet": [
+        "Mercury",
+        "Venus",
+        "Earth's Moon",
+        "Phobos",
+        "Titan"
+      ],
+      "year": [
+        "2030",
+        "2031",
+        "2032",
+        "2033",
+        "2034"
+      ]
+    },
+    "clues": [
+      "Laika is a geologist.",
+      "The geologist went to Phobos.",
+      "Laika launched in 2030.",
+      "Newton is the robotics expert.",
+      "The robotics expert visited Earth's Moon.",
+      "Newton launched in 2031.",
+      "Kepler studies astrophysics.",
+      "The astrophysicist went to Mercury.",
+      "Kepler launched in 2032.",
+      "Orbit is the medic.",
+      "Orbit launched in 2033.",
+      "Mir studies botany and launched last.",
+      "The botanist went to Titan."
+    ],
+    "solution": {
+      "Kepler": {
+        "specialty": "astrophysics",
+        "planet": "Mercury",
+        "year": "2032"
+      },
+      "Laika": {
+        "specialty": "geology",
+        "planet": "Phobos",
+        "year": "2030"
+      },
+      "Mir": {
+        "specialty": "botany",
+        "planet": "Titan",
+        "year": "2034"
+      },
+      "Newton": {
+        "specialty": "robotics",
+        "planet": "Earth's Moon",
+        "year": "2031"
+      },
+      "Orbit": {
+        "specialty": "medicine",
+        "planet": "Venus",
+        "year": "2033"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-missions-durations-6x12",
+    "type": "logic_puzzle",
+    "title": "Mission Durations",
+    "grade_min": 8,
+    "grade_max": 9,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "6x12",
+    "entities": [
+      "Aldrin",
+      "Brahe",
+      "Copernicus",
+      "Drake",
+      "Euclid",
+      "Faraday"
+    ],
+    "categories": {
+      "mission": [
+        "lunar survey",
+        "mars orbit",
+        "deep space probe",
+        "station repair",
+        "comet intercept",
+        "asteroid mining"
+      ],
+      "duration": [
+        "5 days",
+        "10 days",
+        "20 days",
+        "45 days",
+        "90 days",
+        "180 days"
+      ]
+    },
+    "clues": [
+      "Aldrin completed the lunar survey.",
+      "The lunar survey was the shortest mission at 5 days.",
+      "Copernicus flew the deep space probe.",
+      "The deep space probe mission lasted the longest at 180 days.",
+      "Faraday mined asteroids.",
+      "The asteroid mining mission lasted 90 days.",
+      "Brahe orbited Mars.",
+      "The mars orbit mission lasted 45 days.",
+      "Drake repaired the station.",
+      "The station repair took 10 days.",
+      "Euclid's mission lasted longer than the station repair but shorter than the mars orbit.",
+      "Euclid intercepted a comet."
+    ],
+    "solution": {
+      "Aldrin": {
+        "mission": "lunar survey",
+        "duration": "5 days"
+      },
+      "Brahe": {
+        "mission": "mars orbit",
+        "duration": "45 days"
+      },
+      "Copernicus": {
+        "mission": "deep space probe",
+        "duration": "180 days"
+      },
+      "Drake": {
+        "mission": "station repair",
+        "duration": "10 days"
+      },
+      "Euclid": {
+        "mission": "comet intercept",
+        "duration": "20 days"
+      },
+      "Faraday": {
+        "mission": "asteroid mining",
+        "duration": "90 days"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-crew-3cat-4x12",
+    "type": "logic_puzzle",
+    "title": "The Full Crew",
+    "grade_min": 5,
+    "grade_max": 7,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "4x12",
+    "entities": [
+      "Sirius",
+      "Titan",
+      "Umbra",
+      "Vela"
+    ],
+    "categories": {
+      "role": [
+        "commander",
+        "pilot",
+        "scientist",
+        "medic"
+      ],
+      "planet": [
+        "Moon",
+        "Mars",
+        "Venus",
+        "Titan"
+      ],
+      "suit color": [
+        "white",
+        "orange",
+        "blue",
+        "silver"
+      ]
+    },
+    "clues": [
+      "Sirius is the commander.",
+      "The commander went to Mars.",
+      "The commander wears an orange suit.",
+      "Titan is the pilot.",
+      "The pilot visited the Moon.",
+      "The pilot wears a white suit.",
+      "Umbra is not the medic.",
+      "The scientist went to Venus.",
+      "The scientist wears blue.",
+      "The medic visited Titan."
+    ],
+    "solution": {
+      "Sirius": {
+        "role": "commander",
+        "planet": "Mars",
+        "suit color": "orange"
+      },
+      "Titan": {
+        "role": "pilot",
+        "planet": "Moon",
+        "suit color": "white"
+      },
+      "Umbra": {
+        "role": "scientist",
+        "planet": "Venus",
+        "suit color": "blue"
+      },
+      "Vela": {
+        "role": "medic",
+        "planet": "Titan",
+        "suit color": "silver"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-station-experiments-4x8",
+    "type": "logic_puzzle",
+    "title": "Station Experiments",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Aster",
+      "Bolt",
+      "Crest",
+      "Dune"
+    ],
+    "categories": {
+      "experiment": [
+        "plant growth",
+        "bone density",
+        "crystal formation",
+        "water recycling"
+      ],
+      "station module": [
+        "lab",
+        "greenhouse",
+        "habitat",
+        "storage bay"
+      ]
+    },
+    "clues": [
+      "Aster grew plants.",
+      "The plant growth experiment took place in the greenhouse.",
+      "Bolt studied bone density.",
+      "The bone density research was done in the lab.",
+      "Crest is not in the greenhouse.",
+      "The crystal formation experiment was done in the habitat.",
+      "Dune did not study crystal formation."
+    ],
+    "solution": {
+      "Aster": {
+        "experiment": "plant growth",
+        "station module": "greenhouse"
+      },
+      "Bolt": {
+        "experiment": "bone density",
+        "station module": "lab"
+      },
+      "Crest": {
+        "experiment": "crystal formation",
+        "station module": "habitat"
+      },
+      "Dune": {
+        "experiment": "water recycling",
+        "station module": "storage bay"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-planets-discoveries-5x10",
+    "type": "logic_puzzle",
+    "title": "Planetary Discoveries",
+    "grade_min": 5,
+    "grade_max": 6,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "standard",
+    "grid_size": "5x10",
+    "entities": [
+      "Archer",
+      "Beacon",
+      "Comet2",
+      "Drift",
+      "Ember2"
+    ],
+    "categories": {
+      "planet": [
+        "Mercury",
+        "Venus",
+        "Moon",
+        "Phobos",
+        "Ceres"
+      ],
+      "discovery": [
+        "ice deposits",
+        "volcanic activity",
+        "metal ore",
+        "ancient craters",
+        "gas pockets"
+      ]
+    },
+    "clues": [
+      "Archer explored Mercury.",
+      "The Mercury explorer found ancient craters.",
+      "The Venus explorer discovered volcanic activity.",
+      "Beacon went to Venus.",
+      "Comet2 landed on the Moon.",
+      "The Moon explorer found ice deposits.",
+      "The Phobos explorer found metal ore.",
+      "Ember2 did not go to Phobos.",
+      "The Ceres mission uncovered gas pockets."
+    ],
+    "solution": {
+      "Archer": {
+        "planet": "Mercury",
+        "discovery": "ancient craters"
+      },
+      "Beacon": {
+        "planet": "Venus",
+        "discovery": "volcanic activity"
+      },
+      "Comet2": {
+        "planet": "Moon",
+        "discovery": "ice deposits"
+      },
+      "Drift": {
+        "planet": "Phobos",
+        "discovery": "metal ore"
+      },
+      "Ember2": {
+        "planet": "Ceres",
+        "discovery": "gas pockets"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "space-crew-6x18",
+    "type": "logic_puzzle",
+    "title": "Mission Crew Assignments",
+    "grade_min": 8,
+    "grade_max": 9,
+    "themes": [
+      "space",
+      "astronauts"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "6x18",
+    "entities": [
+      "Apollo",
+      "Boreas",
+      "Chandra",
+      "Daedalus",
+      "Electra",
+      "Fenrir"
+    ],
+    "categories": {
+      "role": [
+        "commander",
+        "pilot",
+        "geologist",
+        "biologist",
+        "engineer",
+        "medic"
+      ],
+      "destination": [
+        "Moon",
+        "Mars",
+        "Titan",
+        "Europa",
+        "Phobos",
+        "Ceres"
+      ],
+      "launch month": [
+        "January",
+        "March",
+        "June",
+        "August",
+        "October",
+        "December"
+      ]
+    },
+    "clues": [
+      "Apollo is the commander.",
+      "The commander went to the Moon.",
+      "The Moon mission launched in January.",
+      "Boreas is the pilot.",
+      "The pilot went to Mars.",
+      "The Mars mission launched in March.",
+      "Chandra is the geologist.",
+      "The geologist explored Phobos.",
+      "Daedalus is the biologist.",
+      "The biologist studied Europa.",
+      "The engineer went to Ceres.",
+      "Fenrir is the medic.",
+      "The medic explored Titan.",
+      "The Titan mission launched in December, the last of the year.",
+      "Chandra launched in June.",
+      "Daedalus launched in August.",
+      "Electra launched in October."
+    ],
+    "solution": {
+      "Apollo": {
+        "role": "commander",
+        "destination": "Moon",
+        "launch month": "January"
+      },
+      "Boreas": {
+        "role": "pilot",
+        "destination": "Mars",
+        "launch month": "March"
+      },
+      "Chandra": {
+        "role": "geologist",
+        "destination": "Phobos",
+        "launch month": "June"
+      },
+      "Daedalus": {
+        "role": "biologist",
+        "destination": "Europa",
+        "launch month": "August"
+      },
+      "Electra": {
+        "role": "engineer",
+        "destination": "Ceres",
+        "launch month": "October"
+      },
+      "Fenrir": {
+        "role": "medic",
+        "destination": "Titan",
+        "launch month": "December"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-creatures-colors-3x6",
+    "type": "logic_puzzle",
+    "title": "Ocean Colors",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Finn",
+      "Pearl",
+      "Splash"
+    ],
+    "categories": {
+      "creature": [
+        "dolphin",
+        "sea turtle",
+        "clownfish"
+      ],
+      "color": [
+        "blue",
+        "green",
+        "orange"
+      ]
+    },
+    "clues": [
+      "Finn is a dolphin.",
+      "The dolphin is blue.",
+      "Splash is not green.",
+      "The sea turtle is green."
+    ],
+    "solution": {
+      "Finn": {
+        "creature": "dolphin",
+        "color": "blue"
+      },
+      "Pearl": {
+        "creature": "sea turtle",
+        "color": "green"
+      },
+      "Splash": {
+        "creature": "clownfish",
+        "color": "orange"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-zones-3x6",
+    "type": "logic_puzzle",
+    "title": "Ocean Zones",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Bubbles",
+      "Coral",
+      "Drift"
+    ],
+    "categories": {
+      "animal": [
+        "octopus",
+        "starfish",
+        "crab"
+      ],
+      "zone": [
+        "shallow reef",
+        "open ocean",
+        "deep sea"
+      ]
+    },
+    "clues": [
+      "Coral is a starfish.",
+      "The starfish lives on the shallow reef.",
+      "The octopus lives in the deep sea.",
+      "Drift is not an octopus."
+    ],
+    "solution": {
+      "Bubbles": {
+        "animal": "octopus",
+        "zone": "deep sea"
+      },
+      "Coral": {
+        "animal": "starfish",
+        "zone": "shallow reef"
+      },
+      "Drift": {
+        "animal": "crab",
+        "zone": "open ocean"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-sizes-3x6",
+    "type": "logic_puzzle",
+    "title": "Sea Creature Sizes",
+    "grade_min": 2,
+    "grade_max": 4,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Wave",
+      "Tide",
+      "Shore"
+    ],
+    "categories": {
+      "sea creature": [
+        "whale",
+        "jellyfish",
+        "seahorse"
+      ],
+      "size": [
+        "tiny",
+        "medium",
+        "huge"
+      ]
+    },
+    "clues": [
+      "Wave is a whale.",
+      "The whale is huge.",
+      "Shore is tiny.",
+      "The jellyfish is not tiny."
+    ],
+    "solution": {
+      "Wave": {
+        "sea creature": "whale",
+        "size": "huge"
+      },
+      "Tide": {
+        "sea creature": "jellyfish",
+        "size": "medium"
+      },
+      "Shore": {
+        "sea creature": "seahorse",
+        "size": "tiny"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-predators-food-4x8",
+    "type": "logic_puzzle",
+    "title": "Ocean Predators",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Anchor",
+      "Brine",
+      "Current",
+      "Dune2"
+    ],
+    "categories": {
+      "creature": [
+        "shark",
+        "manta ray",
+        "lobster",
+        "moray eel"
+      ],
+      "favorite food": [
+        "fish",
+        "shrimp",
+        "squid",
+        "crabs"
+      ]
+    },
+    "clues": [
+      "Anchor is a shark.",
+      "The shark eats fish.",
+      "The manta ray feeds on shrimp.",
+      "Brine is a manta ray.",
+      "Dune2 is a moray eel.",
+      "The moray eel eats squid.",
+      "Current does not eat fish."
+    ],
+    "solution": {
+      "Anchor": {
+        "creature": "shark",
+        "favorite food": "fish"
+      },
+      "Brine": {
+        "creature": "manta ray",
+        "favorite food": "shrimp"
+      },
+      "Current": {
+        "creature": "lobster",
+        "favorite food": "crabs"
+      },
+      "Dune2": {
+        "creature": "moray eel",
+        "favorite food": "squid"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-habitat-4x8",
+    "type": "logic_puzzle",
+    "title": "Ocean Habitats",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Reef",
+      "Sandy",
+      "Kelp",
+      "Tidal"
+    ],
+    "categories": {
+      "creature": [
+        "clownfish",
+        "sea otter",
+        "pufferfish",
+        "sea lion"
+      ],
+      "habitat": [
+        "coral reef",
+        "kelp forest",
+        "tidal pool",
+        "open sea"
+      ]
+    },
+    "clues": [
+      "Reef is a clownfish.",
+      "The clownfish lives on the coral reef.",
+      "The sea otter lives in the kelp forest.",
+      "Sandy is a sea otter.",
+      "Kelp does not live in the open sea.",
+      "The pufferfish lives in the tidal pool.",
+      "Tidal is a sea lion."
+    ],
+    "solution": {
+      "Reef": {
+        "creature": "clownfish",
+        "habitat": "coral reef"
+      },
+      "Sandy": {
+        "creature": "sea otter",
+        "habitat": "kelp forest"
+      },
+      "Kelp": {
+        "creature": "pufferfish",
+        "habitat": "tidal pool"
+      },
+      "Tidal": {
+        "creature": "sea lion",
+        "habitat": "open sea"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-depth-animals-4x8",
+    "type": "logic_puzzle",
+    "title": "Ocean Depths",
+    "grade_min": 4,
+    "grade_max": 6,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Azure",
+      "Brine2",
+      "Cobalt",
+      "Depths"
+    ],
+    "categories": {
+      "animal": [
+        "blue whale",
+        "hammerhead shark",
+        "giant squid",
+        "nautilus"
+      ],
+      "depth": [
+        "surface",
+        "mid-water",
+        "deep ocean",
+        "abyss"
+      ]
+    },
+    "clues": [
+      "Azure is a blue whale.",
+      "The blue whale lives near the surface.",
+      "The hammerhead shark patrols the mid-water zone.",
+      "Cobalt is a giant squid.",
+      "The giant squid lurks in the deep ocean.",
+      "The nautilus lives in the abyss.",
+      "Brine2 is the hammerhead shark."
+    ],
+    "solution": {
+      "Azure": {
+        "animal": "blue whale",
+        "depth": "surface"
+      },
+      "Brine2": {
+        "animal": "hammerhead shark",
+        "depth": "mid-water"
+      },
+      "Cobalt": {
+        "animal": "giant squid",
+        "depth": "deep ocean"
+      },
+      "Depths": {
+        "animal": "nautilus",
+        "depth": "abyss"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-defense-4x8",
+    "type": "logic_puzzle",
+    "title": "Ocean Defenses",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Marina",
+      "Neptun",
+      "Oceana",
+      "Pacific"
+    ],
+    "categories": {
+      "color": [
+        "red",
+        "blue",
+        "yellow",
+        "purple"
+      ],
+      "defense": [
+        "ink spray",
+        "sharp spines",
+        "camouflage",
+        "electric shock"
+      ]
+    },
+    "clues": [
+      "Marina is red.",
+      "The red creature defends itself with sharp spines.",
+      "The blue creature sprays ink.",
+      "Neptun is blue.",
+      "The yellow creature uses camouflage.",
+      "Pacific is not yellow.",
+      "The purple creature delivers an electric shock."
+    ],
+    "solution": {
+      "Marina": {
+        "color": "red",
+        "defense": "sharp spines"
+      },
+      "Neptun": {
+        "color": "blue",
+        "defense": "ink spray"
+      },
+      "Oceana": {
+        "color": "yellow",
+        "defense": "camouflage"
+      },
+      "Pacific": {
+        "color": "purple",
+        "defense": "electric shock"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-zones-5x10",
+    "type": "logic_puzzle",
+    "title": "Ocean Zones",
+    "grade_min": 5,
+    "grade_max": 7,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "standard",
+    "grid_size": "5x10",
+    "entities": [
+      "Abyssal",
+      "Barrier",
+      "Canyon",
+      "Delphi",
+      "Estuary"
+    ],
+    "categories": {
+      "creature": [
+        "anglerfish",
+        "sea horse",
+        "octopus",
+        "starfish",
+        "hermit crab"
+      ],
+      "ocean zone": [
+        "sunlight zone",
+        "twilight zone",
+        "midnight zone",
+        "abyssal zone",
+        "hadal zone"
+      ]
+    },
+    "clues": [
+      "Barrier is a sea horse.",
+      "The sea horse lives in the sunlight zone.",
+      "The anglerfish lives in the midnight zone.",
+      "Abyssal is an anglerfish.",
+      "The octopus lives in the twilight zone.",
+      "Canyon is an octopus.",
+      "Delphi is a starfish.",
+      "The starfish lives in the abyssal zone.",
+      "The hermit crab lives in the hadal zone."
+    ],
+    "solution": {
+      "Abyssal": {
+        "creature": "anglerfish",
+        "ocean zone": "midnight zone"
+      },
+      "Barrier": {
+        "creature": "sea horse",
+        "ocean zone": "sunlight zone"
+      },
+      "Canyon": {
+        "creature": "octopus",
+        "ocean zone": "twilight zone"
+      },
+      "Delphi": {
+        "creature": "starfish",
+        "ocean zone": "abyssal zone"
+      },
+      "Estuary": {
+        "creature": "hermit crab",
+        "ocean zone": "hadal zone"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-abilities-5x10",
+    "type": "logic_puzzle",
+    "title": "Sea Creature Abilities",
+    "grade_min": 6,
+    "grade_max": 7,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "5x10",
+    "entities": [
+      "Anemone",
+      "Barnacle",
+      "Coral2",
+      "Driftwood",
+      "Eel"
+    ],
+    "categories": {
+      "creature": [
+        "clam",
+        "sea urchin",
+        "puffer fish",
+        "mantis shrimp",
+        "moray eel"
+      ],
+      "special ability": [
+        "filter feeding",
+        "rolling into a ball",
+        "color change",
+        "punch with 200 mph force",
+        "hiding in crevices"
+      ]
+    },
+    "clues": [
+      "Anemone is a clam.",
+      "The clam is a filter feeder.",
+      "The sea urchin rolls into a ball for defense.",
+      "Barnacle is a sea urchin.",
+      "The puffer fish changes color.",
+      "Coral2 is a puffer fish.",
+      "The mantis shrimp can punch at 200 mph.",
+      "Driftwood is a mantis shrimp.",
+      "The moray eel hides in crevices."
+    ],
+    "solution": {
+      "Anemone": {
+        "creature": "clam",
+        "special ability": "filter feeding"
+      },
+      "Barnacle": {
+        "creature": "sea urchin",
+        "special ability": "rolling into a ball"
+      },
+      "Coral2": {
+        "creature": "puffer fish",
+        "special ability": "color change"
+      },
+      "Driftwood": {
+        "creature": "mantis shrimp",
+        "special ability": "punch with 200 mph force"
+      },
+      "Eel": {
+        "creature": "moray eel",
+        "special ability": "hiding in crevices"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-species-5x15",
+    "type": "logic_puzzle",
+    "title": "Ocean Species",
+    "grade_min": 6,
+    "grade_max": 8,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "5x15",
+    "entities": [
+      "Finley",
+      "Grotto",
+      "Harbor",
+      "Inlet",
+      "Jetty"
+    ],
+    "categories": {
+      "species": [
+        "bottlenose dolphin",
+        "great white shark",
+        "manta ray",
+        "blue ringed octopus",
+        "humpback whale"
+      ],
+      "region": [
+        "Pacific",
+        "Atlantic",
+        "Indian Ocean",
+        "Arctic",
+        "Mediterranean"
+      ],
+      "diet": [
+        "fish",
+        "seals",
+        "plankton",
+        "crabs",
+        "krill"
+      ]
+    },
+    "clues": [
+      "Finley is a bottlenose dolphin.",
+      "The bottlenose dolphin lives in the Mediterranean.",
+      "The bottlenose dolphin eats fish.",
+      "Grotto is a great white shark.",
+      "The great white shark lives in the Pacific.",
+      "The great white shark eats seals.",
+      "Harbor is a manta ray.",
+      "The manta ray lives in the Indian Ocean.",
+      "The manta ray filters plankton.",
+      "Inlet is the blue ringed octopus.",
+      "The blue ringed octopus eats crabs.",
+      "The humpback whale lives in the Atlantic.",
+      "The humpback whale eats krill."
+    ],
+    "solution": {
+      "Finley": {
+        "species": "bottlenose dolphin",
+        "region": "Mediterranean",
+        "diet": "fish"
+      },
+      "Grotto": {
+        "species": "great white shark",
+        "region": "Pacific",
+        "diet": "seals"
+      },
+      "Harbor": {
+        "species": "manta ray",
+        "region": "Indian Ocean",
+        "diet": "plankton"
+      },
+      "Inlet": {
+        "species": "blue ringed octopus",
+        "region": "Arctic",
+        "diet": "crabs"
+      },
+      "Jetty": {
+        "species": "humpback whale",
+        "region": "Atlantic",
+        "diet": "krill"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-fish-locations-4x8",
+    "type": "logic_puzzle",
+    "title": "Fish Locations",
+    "grade_min": 3,
+    "grade_max": 5,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Pebble",
+      "Quartz",
+      "Ripple",
+      "Surge"
+    ],
+    "categories": {
+      "fish": [
+        "salmon",
+        "tuna",
+        "cod",
+        "swordfish"
+      ],
+      "location": [
+        "river",
+        "tropical sea",
+        "cold ocean",
+        "open water"
+      ]
+    },
+    "clues": [
+      "Pebble is a salmon.",
+      "The salmon lives in the river.",
+      "The tuna swims in the tropical sea.",
+      "Quartz is a tuna.",
+      "The cod lives in the cold ocean.",
+      "Ripple is a cod.",
+      "The swordfish roams open water."
+    ],
+    "solution": {
+      "Pebble": {
+        "fish": "salmon",
+        "location": "river"
+      },
+      "Quartz": {
+        "fish": "tuna",
+        "location": "tropical sea"
+      },
+      "Ripple": {
+        "fish": "cod",
+        "location": "cold ocean"
+      },
+      "Surge": {
+        "fish": "swordfish",
+        "location": "open water"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-traits-6x12",
+    "type": "logic_puzzle",
+    "title": "Ocean Traits",
+    "grade_min": 8,
+    "grade_max": 9,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "6x12",
+    "entities": [
+      "Abalone",
+      "Barnacle2",
+      "Conch",
+      "Diatom",
+      "Echinoderm",
+      "Flounder"
+    ],
+    "categories": {
+      "species": [
+        "giant clam",
+        "lionfish",
+        "sea cucumber",
+        "mantis shrimp",
+        "seahorse",
+        "cuttlefish"
+      ],
+      "special trait": [
+        "world's largest bivalve",
+        "venomous spines",
+        "breathing through skin",
+        "fastest punch in nature",
+        "male gives birth",
+        "can change shape"
+      ]
+    },
+    "clues": [
+      "Abalone is a giant clam.",
+      "The giant clam is the world's largest bivalve.",
+      "The lionfish has venomous spines.",
+      "Barnacle2 is a lionfish.",
+      "The sea cucumber breathes through its skin.",
+      "Conch is a sea cucumber.",
+      "The mantis shrimp throws the fastest punch in nature.",
+      "Diatom is a mantis shrimp.",
+      "The seahorse is unusual because the male gives birth.",
+      "Echinoderm is a seahorse.",
+      "The cuttlefish can change its shape.",
+      "Flounder is not a seahorse."
+    ],
+    "solution": {
+      "Abalone": {
+        "species": "giant clam",
+        "special trait": "world's largest bivalve"
+      },
+      "Barnacle2": {
+        "species": "lionfish",
+        "special trait": "venomous spines"
+      },
+      "Conch": {
+        "species": "sea cucumber",
+        "special trait": "breathing through skin"
+      },
+      "Diatom": {
+        "species": "mantis shrimp",
+        "special trait": "fastest punch in nature"
+      },
+      "Echinoderm": {
+        "species": "seahorse",
+        "special trait": "male gives birth"
+      },
+      "Flounder": {
+        "species": "cuttlefish",
+        "special trait": "can change shape"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-creatures-4x12",
+    "type": "logic_puzzle",
+    "title": "Colorful Ocean Creatures",
+    "grade_min": 5,
+    "grade_max": 7,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "4x12",
+    "entities": [
+      "Kelvin",
+      "Lagoon",
+      "Marlin",
+      "Nemo2"
+    ],
+    "categories": {
+      "creature": [
+        "dolphin",
+        "sea turtle",
+        "electric eel",
+        "pufferfish"
+      ],
+      "color pattern": [
+        "spotted",
+        "striped",
+        "solid blue",
+        "yellow and black"
+      ],
+      "ocean region": [
+        "Pacific",
+        "Atlantic",
+        "Indian Ocean",
+        "Caribbean"
+      ]
+    },
+    "clues": [
+      "Kelvin is a dolphin.",
+      "The dolphin is solid blue.",
+      "The dolphin lives in the Pacific.",
+      "Lagoon is a sea turtle.",
+      "The sea turtle has a spotted pattern.",
+      "The sea turtle lives in the Caribbean.",
+      "The electric eel has stripes.",
+      "Marlin is not a pufferfish.",
+      "The pufferfish is yellow and black.",
+      "The electric eel lives in the Atlantic."
+    ],
+    "solution": {
+      "Kelvin": {
+        "creature": "dolphin",
+        "color pattern": "solid blue",
+        "ocean region": "Pacific"
+      },
+      "Lagoon": {
+        "creature": "sea turtle",
+        "color pattern": "spotted",
+        "ocean region": "Caribbean"
+      },
+      "Marlin": {
+        "creature": "electric eel",
+        "color pattern": "striped",
+        "ocean region": "Atlantic"
+      },
+      "Nemo2": {
+        "creature": "pufferfish",
+        "color pattern": "yellow and black",
+        "ocean region": "Indian Ocean"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-superpowers-4x8",
+    "type": "logic_puzzle",
+    "title": "Ocean Superpowers",
+    "grade_min": 3,
+    "grade_max": 5,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Splash2",
+      "Froth",
+      "Undertow",
+      "Biolume"
+    ],
+    "categories": {
+      "animal": [
+        "sea star",
+        "narwhal",
+        "flying fish",
+        "mantis shrimp2"
+      ],
+      "superpower": [
+        "regrow limbs",
+        "unicorn horn",
+        "can fly",
+        "rainbow vision"
+      ]
+    },
+    "clues": [
+      "Splash2 is a sea star.",
+      "The sea star can regrow its limbs.",
+      "The narwhal has a unicorn horn.",
+      "Froth is not a flying fish.",
+      "Undertow is a flying fish.",
+      "The flying fish can fly out of the water.",
+      "Biolume has rainbow vision."
+    ],
+    "solution": {
+      "Splash2": {
+        "animal": "sea star",
+        "superpower": "regrow limbs"
+      },
+      "Froth": {
+        "animal": "narwhal",
+        "superpower": "unicorn horn"
+      },
+      "Undertow": {
+        "animal": "flying fish",
+        "superpower": "can fly"
+      },
+      "Biolume": {
+        "animal": "mantis shrimp2",
+        "superpower": "rainbow vision"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "ocean-diet-5x10",
+    "type": "logic_puzzle",
+    "title": "What Do They Eat?",
+    "grade_min": 5,
+    "grade_max": 6,
+    "themes": [
+      "ocean",
+      "sea-creatures"
+    ],
+    "difficulty": "standard",
+    "grid_size": "5x10",
+    "entities": [
+      "Marigold",
+      "Poseidon",
+      "Quickfin",
+      "Rushmore",
+      "Saltspray"
+    ],
+    "categories": {
+      "creature": [
+        "beluga whale",
+        "hammerhead shark",
+        "sea otter2",
+        "stingray",
+        "barracuda"
+      ],
+      "food": [
+        "squid",
+        "fish2",
+        "sea urchins",
+        "small fish",
+        "large fish"
+      ]
+    },
+    "clues": [
+      "Marigold is a beluga whale.",
+      "The beluga whale eats squid.",
+      "The hammerhead shark hunts large fish.",
+      "Poseidon is a hammerhead shark.",
+      "Quickfin is a sea otter.",
+      "The sea otter cracks open sea urchins.",
+      "The stingray eats small fish.",
+      "Saltspray is a barracuda.",
+      "Rushmore is not a barracuda."
+    ],
+    "solution": {
+      "Marigold": {
+        "creature": "beluga whale",
+        "food": "squid"
+      },
+      "Poseidon": {
+        "creature": "hammerhead shark",
+        "food": "large fish"
+      },
+      "Quickfin": {
+        "creature": "sea otter2",
+        "food": "sea urchins"
+      },
+      "Rushmore": {
+        "creature": "stingray",
+        "food": "small fish"
+      },
+      "Saltspray": {
+        "creature": "barracuda",
+        "food": "fish2"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "food-lunch-3x6",
+    "type": "logic_puzzle",
+    "title": "Lunch Orders",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "food",
+      "cooking"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Lily",
+      "Max",
+      "Zoe2"
+    ],
+    "categories": {
+      "food": [
+        "pizza",
+        "tacos",
+        "sushi"
+      ],
+      "drink": [
+        "juice",
+        "milk",
+        "water"
+      ]
+    },
+    "clues": [
+      "Lily chose pizza.",
+      "Max chose sushi.",
+      "The person who chose pizza drank juice.",
+      "The person who chose sushi drank milk."
+    ],
+    "solution": {
+      "Lily": {
+        "food": "pizza",
+        "drink": "juice"
+      },
+      "Max": {
+        "food": "sushi",
+        "drink": "milk"
+      },
+      "Zoe2": {
+        "food": "tacos",
+        "drink": "water"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "food-chefs-3x6",
+    "type": "logic_puzzle",
+    "title": "Chef Specialties",
+    "grade_min": 2,
+    "grade_max": 4,
+    "themes": [
+      "food",
+      "cooking"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Chef Ana",
+      "Chef Ben",
+      "Chef Cal"
+    ],
+    "categories": {
+      "specialty": [
+        "baking",
+        "grilling",
+        "stir fry"
+      ],
+      "restaurant": [
+        "The Garden",
+        "Flame House",
+        "Noodle Palace"
+      ]
+    },
+    "clues": [
+      "Chef Ana loves baking.",
+      "The grilling specialist works at Flame House.",
+      "Chef Cal does not work at Flame House.",
+      "The baker works at The Garden."
+    ],
+    "solution": {
+      "Chef Ana": {
+        "specialty": "baking",
+        "restaurant": "The Garden"
+      },
+      "Chef Ben": {
+        "specialty": "grilling",
+        "restaurant": "Flame House"
+      },
+      "Chef Cal": {
+        "specialty": "stir fry",
+        "restaurant": "Noodle Palace"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "food-dishes-4x8",
+    "type": "logic_puzzle",
+    "title": "Kitchen Dishes",
+    "grade_min": 3,
+    "grade_max": 5,
+    "themes": [
+      "food",
+      "cooking"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Amber2",
+      "Blake",
+      "Casey",
+      "Devon"
+    ],
+    "categories": {
+      "dish": [
+        "pasta",
+        "soup",
+        "salad",
+        "sandwich"
+      ],
+      "ingredient": [
+        "tomatoes",
+        "chicken",
+        "mushrooms",
+        "avocado"
+      ]
+    },
+    "clues": [
+      "Amber2 made pasta.",
+      "The pasta dish used tomatoes.",
+      "The soup used chicken.",
+      "Blake made soup.",
+      "The salad had avocado.",
+      "Casey made salad.",
+      "The sandwich used mushrooms."
+    ],
+    "solution": {
+      "Amber2": {
+        "dish": "pasta",
+        "ingredient": "tomatoes"
+      },
+      "Blake": {
+        "dish": "soup",
+        "ingredient": "chicken"
+      },
+      "Casey": {
+        "dish": "salad",
+        "ingredient": "avocado"
+      },
+      "Devon": {
+        "dish": "sandwich",
+        "ingredient": "mushrooms"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "food-cuisine-methods-4x8",
+    "type": "logic_puzzle",
+    "title": "Cuisine Cooking Methods",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "food",
+      "cooking"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Fiona",
+      "Grant",
+      "Hazel2",
+      "Ivan"
+    ],
+    "categories": {
+      "cuisine": [
+        "Mexican",
+        "Italian",
+        "Thai",
+        "Japanese"
+      ],
+      "cooking method": [
+        "frying",
+        "baking",
+        "steaming",
+        "grilling"
+      ]
+    },
+    "clues": [
+      "Fiona cooks Mexican food.",
+      "The Mexican cook uses a grill.",
+      "Grant cooks Italian food.",
+      "The Italian cook bakes everything.",
+      "The Thai cook uses steaming.",
+      "Ivan does not steam his food.",
+      "Hazel2 is not the Japanese cook."
+    ],
+    "solution": {
+      "Fiona": {
+        "cuisine": "Mexican",
+        "cooking method": "grilling"
+      },
+      "Grant": {
+        "cuisine": "Italian",
+        "cooking method": "baking"
+      },
+      "Hazel2": {
+        "cuisine": "Thai",
+        "cooking method": "steaming"
+      },
+      "Ivan": {
+        "cuisine": "Japanese",
+        "cooking method": "frying"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "food-desserts-4x8",
+    "type": "logic_puzzle",
+    "title": "Dessert Flavors",
+    "grade_min": 4,
+    "grade_max": 6,
+    "themes": [
+      "food",
+      "cooking"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Jordan2",
+      "Kim",
+      "Lee",
+      "Morgan"
+    ],
+    "categories": {
+      "dessert": [
+        "cake",
+        "pie",
+        "cookies",
+        "ice cream"
+      ],
+      "flavor": [
+        "chocolate",
+        "vanilla",
+        "strawberry",
+        "lemon"
+      ]
+    },
+    "clues": [
+      "Jordan2 chose cake.",
+      "The cake is chocolate.",
+      "Kim chose pie.",
+      "The pie is lemon-flavored.",
+      "The cookies are vanilla.",
+      "Morgan did not choose cookies.",
+      "The ice cream is strawberry."
+    ],
+    "solution": {
+      "Jordan2": {
+        "dessert": "cake",
+        "flavor": "chocolate"
+      },
+      "Kim": {
+        "dessert": "pie",
+        "flavor": "lemon"
+      },
+      "Lee": {
+        "dessert": "cookies",
+        "flavor": "vanilla"
+      },
+      "Morgan": {
+        "dessert": "ice cream",
+        "flavor": "strawberry"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "food-breakfast-4x8",
+    "type": "logic_puzzle",
+    "title": "Breakfast Toppings",
+    "grade_min": 3,
+    "grade_max": 5,
+    "themes": [
+      "food",
+      "cooking"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Nora",
+      "Owen",
+      "Paige",
+      "Quinn2"
+    ],
+    "categories": {
+      "breakfast": [
+        "pancakes",
+        "waffles",
+        "oatmeal",
+        "eggs"
+      ],
+      "topping": [
+        "maple syrup",
+        "berries",
+        "honey",
+        "salsa"
+      ]
+    },
+    "clues": [
+      "Nora always has pancakes.",
+      "The pancake eater pours maple syrup.",
+      "Owen has waffles.",
+      "The waffle eater tops them with berries.",
+      "The oatmeal eater drizzles honey.",
+      "Quinn2 does not eat oatmeal.",
+      "The egg eater uses salsa."
+    ],
+    "solution": {
+      "Nora": {
+        "breakfast": "pancakes",
+        "topping": "maple syrup"
+      },
+      "Owen": {
+        "breakfast": "waffles",
+        "topping": "berries"
+      },
+      "Paige": {
+        "breakfast": "oatmeal",
+        "topping": "honey"
+      },
+      "Quinn2": {
+        "breakfast": "eggs",
+        "topping": "salsa"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "food-world-cuisine-5x10",
+    "type": "logic_puzzle",
+    "title": "World Cuisine",
+    "grade_min": 5,
+    "grade_max": 7,
+    "themes": [
+      "food",
+      "cooking"
+    ],
+    "difficulty": "standard",
+    "grid_size": "5x10",
+    "entities": [
+      "Rosa",
+      "Sam2",
+      "Tara",
+      "Uma",
+      "Val"
+    ],
+    "categories": {
+      "dish": [
+        "tacos",
+        "ramen",
+        "curry",
+        "risotto",
+        "falafel"
+      ],
+      "origin": [
+        "Mexico",
+        "Japan",
+        "India",
+        "Italy",
+        "Middle East"
+      ]
+    },
+    "clues": [
+      "Rosa made tacos.",
+      "Tacos come from Mexico.",
+      "Ramen comes from Japan.",
+      "Sam2 made ramen.",
+      "Curry originates in India.",
+      "Tara made curry.",
+      "Risotto is an Italian dish.",
+      "Uma made risotto.",
+      "Falafel comes from the Middle East."
+    ],
+    "solution": {
+      "Rosa": {
+        "dish": "tacos",
+        "origin": "Mexico"
+      },
+      "Sam2": {
+        "dish": "ramen",
+        "origin": "Japan"
+      },
+      "Tara": {
+        "dish": "curry",
+        "origin": "India"
+      },
+      "Uma": {
+        "dish": "risotto",
+        "origin": "Italy"
+      },
+      "Val": {
+        "dish": "falafel",
+        "origin": "Middle East"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "food-meals-times-4x12",
+    "type": "logic_puzzle",
+    "title": "Meal Times",
+    "grade_min": 5,
+    "grade_max": 7,
+    "themes": [
+      "food",
+      "cooking"
+    ],
+    "difficulty": "challenge",
+    "grid_size": "4x12",
+    "entities": [
+      "Wren2",
+      "Xander",
+      "Yara",
+      "Zach"
+    ],
+    "categories": {
+      "meal": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "food": [
+        "eggs",
+        "salad",
+        "steak",
+        "fruit"
+      ],
+      "time": [
+        "7 AM",
+        "noon",
+        "7 PM",
+        "3 PM"
+      ]
+    },
+    "clues": [
+      "Wren2 eats breakfast at 7 AM.",
+      "The breakfast consists of eggs.",
+      "Xander eats at noon.",
+      "The lunch is a salad.",
+      "Yara eats dinner.",
+      "The dinner is steak.",
+      "The dinner is at 7 PM.",
+      "The snack is fruit.",
+      "The snack is eaten at 3 PM.",
+      "Zach does not eat breakfast."
+    ],
+    "solution": {
+      "Wren2": {
+        "meal": "breakfast",
+        "food": "eggs",
+        "time": "7 AM"
+      },
+      "Xander": {
+        "meal": "lunch",
+        "food": "salad",
+        "time": "noon"
+      },
+      "Yara": {
+        "meal": "dinner",
+        "food": "steak",
+        "time": "7 PM"
+      },
+      "Zach": {
+        "meal": "snack",
+        "food": "fruit",
+        "time": "3 PM"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "food-snacks-colors-3x6",
+    "type": "logic_puzzle",
+    "title": "Colorful Snacks",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "food",
+      "cooking"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Pip2",
+      "Quinn3",
+      "River"
+    ],
+    "categories": {
+      "snack": [
+        "apple",
+        "carrot",
+        "crackers"
+      ],
+      "color": [
+        "red",
+        "orange",
+        "yellow"
+      ]
+    },
+    "clues": [
+      "Pip2 chose the apple.",
+      "The apple is red.",
+      "The carrot is orange.",
+      "River chose the yellow snack."
+    ],
+    "solution": {
+      "Pip2": {
+        "snack": "apple",
+        "color": "red"
+      },
+      "Quinn3": {
+        "snack": "carrot",
+        "color": "orange"
+      },
+      "River": {
+        "snack": "crackers",
+        "color": "yellow"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "food-fruits-4x8",
+    "type": "logic_puzzle",
+    "title": "Fruits of the World",
+    "grade_min": 3,
+    "grade_max": 5,
+    "themes": [
+      "food",
+      "cooking"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Sasha",
+      "Taylor",
+      "Uma2",
+      "Victor"
+    ],
+    "categories": {
+      "fruit": [
+        "mango",
+        "kiwi",
+        "pineapple",
+        "grape"
+      ],
+      "country": [
+        "India",
+        "New Zealand",
+        "Hawaii",
+        "France"
+      ]
+    },
+    "clues": [
+      "Sasha's fruit is the mango.",
+      "The mango comes from India.",
+      "The kiwi comes from New Zealand.",
+      "Taylor chose kiwi.",
+      "The pineapple comes from Hawaii.",
+      "Uma2 chose pineapple.",
+      "Grapes come from France."
+    ],
+    "solution": {
+      "Sasha": {
+        "fruit": "mango",
+        "country": "India"
+      },
+      "Taylor": {
+        "fruit": "kiwi",
+        "country": "New Zealand"
+      },
+      "Uma2": {
+        "fruit": "pineapple",
+        "country": "Hawaii"
+      },
+      "Victor": {
+        "fruit": "grape",
+        "country": "France"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "animals-pets-3x6",
+    "type": "logic_puzzle",
+    "title": "Pet Pals",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "animals"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Rex2",
+      "Spot",
+      "Fluffy"
+    ],
+    "categories": {
+      "animal": [
+        "dog",
+        "rabbit",
+        "hamster"
+      ],
+      "color": [
+        "brown",
+        "white",
+        "golden"
+      ]
+    },
+    "clues": [
+      "Rex2 is a dog.",
+      "The dog is golden.",
+      "The rabbit is white.",
+      "Fluffy is not white."
+    ],
+    "solution": {
+      "Rex2": {
+        "animal": "dog",
+        "color": "golden"
+      },
+      "Spot": {
+        "animal": "rabbit",
+        "color": "white"
+      },
+      "Fluffy": {
+        "animal": "hamster",
+        "color": "brown"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "animals-sounds-3x6",
+    "type": "logic_puzzle",
+    "title": "Animal Sounds",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "animals"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Stripe",
+      "Spot2",
+      "Patch"
+    ],
+    "categories": {
+      "animal": [
+        "tiger",
+        "giraffe",
+        "cow"
+      ],
+      "sound": [
+        "roar",
+        "nothing",
+        "moo"
+      ]
+    },
+    "clues": [
+      "Stripe is a tiger.",
+      "The tiger roars.",
+      "Spot2 is a giraffe.",
+      "Giraffes make almost no sound."
+    ],
+    "solution": {
+      "Stripe": {
+        "animal": "tiger",
+        "sound": "roar"
+      },
+      "Spot2": {
+        "animal": "giraffe",
+        "sound": "nothing"
+      },
+      "Patch": {
+        "animal": "cow",
+        "sound": "moo"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "animals-homes-4x8",
+    "type": "logic_puzzle",
+    "title": "Animal Homes",
+    "grade_min": 3,
+    "grade_max": 5,
+    "themes": [
+      "animals"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Bramble",
+      "Creek",
+      "Den",
+      "Echo2"
+    ],
+    "categories": {
+      "animal": [
+        "fox",
+        "wolf",
+        "bear",
+        "deer"
+      ],
+      "home": [
+        "burrow",
+        "den",
+        "cave",
+        "forest clearing"
+      ]
+    },
+    "clues": [
+      "Bramble is a fox.",
+      "The fox lives in a burrow.",
+      "Creek is a wolf.",
+      "The wolf lives in a den.",
+      "Den is a bear.",
+      "The bear lives in a cave.",
+      "The deer rests in a forest clearing."
+    ],
+    "solution": {
+      "Bramble": {
+        "animal": "fox",
+        "home": "burrow"
+      },
+      "Creek": {
+        "animal": "wolf",
+        "home": "den"
+      },
+      "Den": {
+        "animal": "bear",
+        "home": "cave"
+      },
+      "Echo2": {
+        "animal": "deer",
+        "home": "forest clearing"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "animals-birds-diet-4x8",
+    "type": "logic_puzzle",
+    "title": "Bird Diets",
+    "grade_min": 3,
+    "grade_max": 5,
+    "themes": [
+      "animals"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Fawn",
+      "Gust",
+      "Hatch",
+      "Iris2"
+    ],
+    "categories": {
+      "animal": [
+        "owl",
+        "falcon",
+        "hummingbird",
+        "penguin"
+      ],
+      "diet": [
+        "mice",
+        "smaller birds",
+        "nectar",
+        "fish"
+      ]
+    },
+    "clues": [
+      "Fawn is an owl.",
+      "Owls hunt mice.",
+      "Gust is a falcon.",
+      "Falcons eat smaller birds.",
+      "Hatch is a hummingbird.",
+      "The hummingbird sips nectar.",
+      "The penguin eats fish."
+    ],
+    "solution": {
+      "Fawn": {
+        "animal": "owl",
+        "diet": "mice"
+      },
+      "Gust": {
+        "animal": "falcon",
+        "diet": "smaller birds"
+      },
+      "Hatch": {
+        "animal": "hummingbird",
+        "diet": "nectar"
+      },
+      "Iris2": {
+        "animal": "penguin",
+        "diet": "fish"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "animals-speed-4x8",
+    "type": "logic_puzzle",
+    "title": "Animal Speed",
+    "grade_min": 4,
+    "grade_max": 5,
+    "themes": [
+      "animals"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Juniper2",
+      "Koda",
+      "Lark",
+      "Meadow"
+    ],
+    "categories": {
+      "animal": [
+        "elephant",
+        "rhino",
+        "lion",
+        "cheetah"
+      ],
+      "speed": [
+        "slow",
+        "moderate",
+        "fast",
+        "fastest"
+      ]
+    },
+    "clues": [
+      "Juniper2 is an elephant.",
+      "The elephant is the slowest.",
+      "The cheetah is the fastest land animal.",
+      "Meadow is the cheetah.",
+      "The rhino moves at moderate speed.",
+      "Lark is not the rhino.",
+      "The lion is fast but not the fastest."
+    ],
+    "solution": {
+      "Juniper2": {
+        "animal": "elephant",
+        "speed": "slow"
+      },
+      "Koda": {
+        "animal": "rhino",
+        "speed": "moderate"
+      },
+      "Lark": {
+        "animal": "lion",
+        "speed": "fast"
+      },
+      "Meadow": {
+        "animal": "cheetah",
+        "speed": "fastest"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "animals-reptiles-4x8",
+    "type": "logic_puzzle",
+    "title": "Reptile Habitats",
+    "grade_min": 3,
+    "grade_max": 5,
+    "themes": [
+      "animals"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "Nile2",
+      "Oak2",
+      "Pine",
+      "Quest"
+    ],
+    "categories": {
+      "reptile": [
+        "crocodile",
+        "iguana",
+        "chameleon",
+        "tortoise"
+      ],
+      "habitat": [
+        "river bank",
+        "tropical tree",
+        "jungle floor",
+        "grassland"
+      ]
+    },
+    "clues": [
+      "Nile2 is a crocodile.",
+      "The crocodile lives on the river bank.",
+      "The iguana lives in tropical trees.",
+      "Oak2 is an iguana.",
+      "Pine is a chameleon.",
+      "The chameleon roams the jungle floor.",
+      "The tortoise roams the grassland."
+    ],
+    "solution": {
+      "Nile2": {
+        "reptile": "crocodile",
+        "habitat": "river bank"
+      },
+      "Oak2": {
+        "reptile": "iguana",
+        "habitat": "tropical tree"
+      },
+      "Pine": {
+        "reptile": "chameleon",
+        "habitat": "jungle floor"
+      },
+      "Quest": {
+        "reptile": "tortoise",
+        "habitat": "grassland"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "animals-aussie-5x10",
+    "type": "logic_puzzle",
+    "title": "Australian Animals",
+    "grade_min": 4,
+    "grade_max": 6,
+    "themes": [
+      "animals"
+    ],
+    "difficulty": "standard",
+    "grid_size": "5x10",
+    "entities": [
+      "River2",
+      "Stone",
+      "Thorn",
+      "Umber",
+      "Vane"
+    ],
+    "categories": {
+      "animal": [
+        "kangaroo",
+        "koala",
+        "wombat",
+        "platypus",
+        "echidna"
+      ],
+      "feature": [
+        "pouch",
+        "eucalyptus diet",
+        "powerful claws",
+        "duck bill",
+        "quills"
+      ]
+    },
+    "clues": [
+      "River2 is a kangaroo.",
+      "The kangaroo carries its young in a pouch.",
+      "The koala eats only eucalyptus.",
+      "Stone is a koala.",
+      "The koala eats only eucalyptus.",
+      "Thorn is a wombat.",
+      "The wombat digs with powerful claws.",
+      "Umber is a platypus.",
+      "The platypus has a duck bill.",
+      "The echidna is covered in quills."
+    ],
+    "solution": {
+      "River2": {
+        "animal": "kangaroo",
+        "feature": "pouch"
+      },
+      "Stone": {
+        "animal": "koala",
+        "feature": "eucalyptus diet"
+      },
+      "Thorn": {
+        "animal": "wombat",
+        "feature": "powerful claws"
+      },
+      "Umber": {
+        "animal": "platypus",
+        "feature": "duck bill"
+      },
+      "Vane": {
+        "animal": "echidna",
+        "feature": "quills"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "animals-class-pets-3x6",
+    "type": "logic_puzzle",
+    "title": "Class Pets",
+    "grade_min": 1,
+    "grade_max": 3,
+    "themes": [
+      "animals"
+    ],
+    "difficulty": "warmup",
+    "grid_size": "3x6",
+    "entities": [
+      "Benny",
+      "Carla",
+      "Duke"
+    ],
+    "categories": {
+      "pet type": [
+        "cat2",
+        "dog2",
+        "fish2"
+      ],
+      "name of pet": [
+        "Whiskers",
+        "Buddy",
+        "Goldie"
+      ]
+    },
+    "clues": [
+      "Benny owns a dog.",
+      "The dog is named Buddy.",
+      "The cat is named Whiskers.",
+      "Duke does not have a cat."
+    ],
+    "solution": {
+      "Benny": {
+        "pet type": "dog2",
+        "name of pet": "Buddy"
+      },
+      "Carla": {
+        "pet type": "cat2",
+        "name of pet": "Whiskers"
+      },
+      "Duke": {
+        "pet type": "fish2",
+        "name of pet": "Goldie"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  },
+  {
+    "id": "animals-insects-4x8",
+    "type": "logic_puzzle",
+    "title": "Insect Habitats",
+    "grade_min": 4,
+    "grade_max": 6,
+    "themes": [
+      "animals"
+    ],
+    "difficulty": "standard",
+    "grid_size": "4x8",
+    "entities": [
+      "West",
+      "Xavier",
+      "Yuki",
+      "Zara2"
+    ],
+    "categories": {
+      "insect": [
+        "butterfly",
+        "beetle",
+        "dragonfly",
+        "firefly"
+      ],
+      "habitat": [
+        "meadow",
+        "forest floor",
+        "pond",
+        "open field"
+      ]
+    },
+    "clues": [
+      "West is a butterfly.",
+      "The butterfly lives in the meadow.",
+      "The beetle lives on the forest floor.",
+      "Xavier is a beetle.",
+      "Yuki is a dragonfly.",
+      "The dragonfly lives near a pond.",
+      "The firefly lights up open fields at night."
+    ],
+    "solution": {
+      "West": {
+        "insect": "butterfly",
+        "habitat": "meadow"
+      },
+      "Xavier": {
+        "insect": "beetle",
+        "habitat": "forest floor"
+      },
+      "Yuki": {
+        "insect": "dragonfly",
+        "habitat": "pond"
+      },
+      "Zara2": {
+        "insect": "firefly",
+        "habitat": "open field"
+      }
+    },
+    "verified": true,
+    "verified_at": "2026-06-29"
+  }
+]
