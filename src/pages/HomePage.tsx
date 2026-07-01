@@ -124,7 +124,8 @@ export default function HomePage() {
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-16">
         <div className="mb-10 text-center">
           <h1 className="text-3xl font-bold text-slate-900 tracking-tight">FLoC</h1>
-          <p className="text-slate-500 text-sm mt-1">Your tools. Your data.</p>
+          <p className="text-slate-500 text-sm mt-1">Front Lines of Code</p>
+          <p className="text-slate-500 text-sm">Your tools. Your data.</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-md">
